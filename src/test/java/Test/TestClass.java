@@ -1,5 +1,4 @@
 package Test;
-
 import java.net.MalformedURLException;
 import java.net.URL;
 import java.util.concurrent.TimeUnit;
@@ -9,10 +8,11 @@ import Pages.HomePage;
 import Pages.SettingsPage;
 import io.appium.java_client.android.AndroidDriver;
 import org.openqa.selenium.remote.DesiredCapabilities;
-import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
+
+
 
 public class TestClass{
     public static AndroidDriver driver;
@@ -33,8 +33,6 @@ public class TestClass{
 
     @Test
     public void Add_Note()  {
-        WebDriverWait wait = new WebDriverWait(driver, 10);
-
         HomePage.click_add_note_btn();
         HomePage.add_notes_text();
         HomePage.click_save_note();
@@ -43,8 +41,6 @@ public class TestClass{
 
     @Test
     public void Add_Note_On_Date() {
-        WebDriverWait wait = new WebDriverWait(driver, 10);
-
         HomePage.click_calendar_btn();
         CalendarPage.click_on_date();
         CalendarPage.click_for_permission();
@@ -61,7 +57,7 @@ public class TestClass{
         ActivitiesAddPage.click_to_add_new_activity();
         ActivitiesAddPage.add_second_activity();
         ActivitiesAddPage.click_to_check_activity();
-        ActivitiesAddPage.save_activities();
+       ActivitiesAddPage.save_activities();
 
     }
 
@@ -71,6 +67,7 @@ public class TestClass{
         HomePage.option_verify();
         HomePage.click_on_notes();
     }
+
 
     @Test
     public void Change_color(){
@@ -86,8 +83,6 @@ public class TestClass{
         SettingsPage.click_to_save();
 
     }
-
-
 
     @AfterClass
     public void teardown() throws Exception{

@@ -1,4 +1,5 @@
 package Pages;
+
 import static Test.TestClass.driver;
 
 public class SettingsPage {

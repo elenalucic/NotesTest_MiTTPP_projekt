@@ -1,4 +1,8 @@
 package Pages;
+import org.openqa.selenium.By;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
+
 import static Test.TestClass.driver;
 
 public class ActivitiesAddPage {
@@ -31,7 +35,8 @@ public class ActivitiesAddPage {
     }
 
     public static void save_activities(){
-        driver.findElementById(save_btn).click();
+        WebDriverWait wait = new WebDriverWait(driver, 10);
+        wait.until(ExpectedConditions.visibilityOfElementLocated(By.id(save_btn))).click();
     }
 
 

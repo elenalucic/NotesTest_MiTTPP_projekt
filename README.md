@@ -37,18 +37,18 @@ Android Studio je službeno razvojno okruženje za Android razvoj koje objedinju
 ## 3. Upute za pokretanje i instalaciju projekta
 
 ### 3.1. Za Intelij IDEA i Appium
--Instalirati Intellij IDEA i Appium 
--Otvoriti projekt u Intellij IDEA
--Pomoću upravitelja paketa (Maven ili Gradle) instalirati potrebne ovisnosti za Appium i testne okvire.
--Konfigurirati Appium postavke unutar projekta, uključujući URL za server i željene postavke za mobilni uređaj.
--Izvršiti testove putem Intelij IDEA, osiguravajući da je Appium server pokrenut i spreman za prihvaćanje testova.
+-Instalirati Intellij IDEA i Appium. <br>
+-Otvoriti projekt u Intellij IDEA. <br>
+-Pomoću upravitelja paketa (Maven ili Gradle) instalirati potrebne ovisnosti za Appium i testne okvire.<br>
+-Konfigurirati Appium postavke unutar projekta, uključujući URL za server i željene postavke za mobilni uređaj.<br>
+-Izvršiti testove putem Intelij IDEA, osiguravajući da je Appium server pokrenut i spreman za prihvaćanje testova.<br>
 
 ### 3.2. Za Android Studio (za emulator)
--Instalirati Android Studio i otvoriti projekt.
--Konfigurirati Android Virtual Device (AVD) unutar Android Studio za željeni uređaj ili emulator.
--Pokrenuti AVD unutar Android Studio.
--U Intelij IDEA ili drugom IDE-u, konfigurirati testne skripte za ciljanje Android emulatora.
--Izvršiti testove, osiguravajući da emulator radi i povezan je s testnim skriptama.    
+-Instalirati Android Studio i otvoriti projekt.<br>
+-Konfigurirati Android Virtual Device (AVD) unutar Android Studio za željeni uređaj ili emulator.<br>
+-Pokrenuti AVD unutar Android Studio.<br>
+-U Intelij IDEA ili drugom IDE-u, konfigurirati testne skripte za ciljanje Android emulatora.<br>
+-Izvršiti testove, osiguravajući da emulator radi i povezan je s testnim skriptama. <br>   
 
 ### 3.3. Pokretanje testova
 Ova naredba pokreće sve testove:

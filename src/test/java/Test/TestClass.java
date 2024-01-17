@@ -13,7 +13,6 @@ import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
 
-
 public class TestClass{
     public static AndroidDriver driver;
 

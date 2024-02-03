@@ -109,10 +109,10 @@ Peti testni slučaj provjerava funkcionalnost otvaranja postavki mobilne aplikac
 
 Šesti testni slučaj provjerava funkcionalnost otvaranja postavki mobilne aplikacije, odabira opcije za preimenovanje oznake, unos novog imena oznake i konačno spremanje promjena
 
-#Integracija s CI poslužiteljem
+### 5. Integracija s CI poslužiteljem
 
 Ovaj projekt koristi Jenkins za automatizaciju testiranja mobilne aplikacije. Integracijom sa GitHub-om, omogućava se automatsko izvršavanje testova nakon svakog commit-a.
-![App Screenshot](https://i.postimg.cc/x88VPPhH/mvntest.png)
-![App Screenshot](https://i.postimg.cc/x88VPPhH/mvntests.png)
+![App Screenshot](https://i.postimg.cc/mkNWt0wF/mvntest.png)
+![App Screenshot](https://i.postimg.cc/TYfXZ3dj/mvntests.png)
 
 

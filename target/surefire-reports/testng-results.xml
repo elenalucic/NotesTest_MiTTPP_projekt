@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-01-17T21:37:58 CET" name="AllTestsSuite" finished-at="2024-01-17T21:38:38 CET" duration-ms="40186">
+    <groups>
+    </groups>
+    <test started-at="2024-01-17T21:37:58 CET" name="My TestNG Test" finished-at="2024-01-17T21:38:38 CET" duration-ms="40186">
+      <class name="Test.TestClass">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:Test.TestClass@1dde4cb2]" started-at="2024-01-17T21:37:58 CET" name="setUp" finished-at="2024-01-17T21:38:06 CET" duration-ms="7905" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="Add_Note()[pri:0, instance:Test.TestClass@1dde4cb2]" started-at="2024-01-17T21:38:06 CET" name="Add_Note" finished-at="2024-01-17T21:38:11 CET" duration-ms="4501" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Add_Note -->
+        <test-method signature="Add_Note_On_Date()[pri:0, instance:Test.TestClass@1dde4cb2]" started-at="2024-01-17T21:38:11 CET" name="Add_Note_On_Date" finished-at="2024-01-17T21:38:18 CET" duration-ms="7651" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Add_Note_On_Date -->
+        <test-method signature="Add_activities()[pri:0, instance:Test.TestClass@1dde4cb2]" started-at="2024-01-17T21:38:18 CET" name="Add_activities" finished-at="2024-01-17T21:38:26 CET" duration-ms="7779" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Add_activities -->
+        <test-method signature="Change_color()[pri:0, instance:Test.TestClass@1dde4cb2]" started-at="2024-01-17T21:38:26 CET" name="Change_color" finished-at="2024-01-17T21:38:30 CET" duration-ms="3966" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Change_color -->
+        <test-method signature="Option_verify()[pri:0, instance:Test.TestClass@1dde4cb2]" started-at="2024-01-17T21:38:30 CET" name="Option_verify" finished-at="2024-01-17T21:38:32 CET" duration-ms="1934" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Option_verify -->
+        <test-method signature="Rename_label()[pri:0, instance:Test.TestClass@1dde4cb2]" started-at="2024-01-17T21:38:32 CET" name="Rename_label" finished-at="2024-01-17T21:38:36 CET" duration-ms="4116" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Rename_label -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:Test.TestClass@1dde4cb2]" started-at="2024-01-17T21:38:36 CET" name="teardown" finished-at="2024-01-17T21:38:38 CET" duration-ms="2313" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- Test.TestClass -->
+    </test> <!-- My TestNG Test -->
+  </suite> <!-- AllTestsSuite -->
+</testng-results>

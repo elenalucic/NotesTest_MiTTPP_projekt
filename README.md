@@ -12,6 +12,7 @@
 - Korištene tehnologije i aplikacije
 - Upute za pokretanje i instalaciju projekta
 - Testni slučajevi
+- Integracija s CI poslužiteljem
 
 
 ## 1. Opis projekta
